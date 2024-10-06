@@ -1,0 +1,119 @@
+/* Importing google font roboto */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    border: box;
+    font-family: "Roboto", sans-serif;
+}
+.content-wrapper{
+    background: url(https://digitalassets.tesla.com/tesla-contents/image/upload/f_auto,q_auto/Homepage-Model-3-Desktop-US.png);
+    height: 100vh;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+}
+.nav{
+    height: 60px;
+    padding: 0 32px;
+    display: flex;
+    justify-content: space-between;
+}
+.logo-container{
+    width: 125px;
+    height: 60px;
+    display: flex;
+}
+.middle-section ul{
+    display: flex;
+    list-style-type: none;
+    gap: 20px;
+    height: 60px;
+}
+.middle-section ul li {
+    display: flex;
+    align-items: center;
+}
+.middle-section ul li a:hover{
+   background-color: #ddd;
+   cursor: pointer;
+   color: #000;
+
+}
+.middle-section ul li a{
+    color: white;
+    text-decoration: none;
+    padding: 8px 12px;
+    border-radius: 5px;
+}
+.icon-section{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    color: #fff;
+}
+.icon-section:hover{
+    cursor: pointer;
+}
+.main-content{
+    color: white;
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    margin: 20px 0px 0px;
+}
+.main-content h1{
+    font-size: 50px;
+}
+.main-content a{
+    color: white;
+    font-size: 28px;
+    text-underline-offset: 5px;
+}
+.main-content p{
+    font: 17px;
+    font-weight: 500;
+    margin: 8px 0 0 0;
+}
+    
+.button-section{
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+.blue-button, .white-button{
+    padding: 10px 50px;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.blue-button{
+    background-color: #3e6ae0;
+    color: #fefefe;
+}
+.blue-button :hover{
+    background-color: #fefefe;
+    color: darkgray;
+}
+.white-button{
+    background-color: #fefefe;
+    color: darkgray;
+}
+.white-button :hover{
+    background-color: #3e6ae0;
+    color: #fefefe
+}
+.blue-button, .white-button{
+    width: 211px;
+    height: 16px;
+    text-align: center;
+}
+.body-content-wrapper{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 80vh;
+}
